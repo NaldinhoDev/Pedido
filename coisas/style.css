@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    
+}
+
+.box{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8%;
+    font-size: 25px;
+   
+}
+
+.container{
+    background: linear-gradient(to right,#FF00FF,deeppink);
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+   margin-bottom: 5rem;
+}
+
+#btnNao {
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-size:25px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+    color: white;
+    background: black;
+    border-radius: 12%;
+    height: 1.3rem;
+    width: 1.6rem;
+    margin-bottom: 3rem;
+    
+ }
+
+ #btnSim{
+    position: absolute;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+    background: #FF00FF;
+    border-radius: 12%;
+    height: 1.3rem;
+    width: 1.6rem;
+    margin-bottom: 3rem;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ 
